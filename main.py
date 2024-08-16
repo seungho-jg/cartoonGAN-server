@@ -6,6 +6,7 @@ from fastapi.responses import StreamingResponse
 from PIL import Image
 import numpy as np
 from onnx_cartoongan_model import load_model, cartoon_gan_inference
+from stable_diffusion_cartoonizer import load_model, cartoon_gan_inference
 
 app = FastAPI()
 
